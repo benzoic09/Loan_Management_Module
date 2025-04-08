@@ -1,0 +1,8 @@
+Request: { "customerNumber": "234774784", "amount": 10000 }
+Response: {
+  "loanId": "uuid",
+  "status": "PENDING_SCORE",
+  "requestedAmount": 10000,
+  "eligibleAmount": 0, // updated after scoring
+  "message": "Scoring in progress"
+}

@@ -1,0 +1,6 @@
+Request: { "customerNumber": "234774784" }
+Response: { 
+  "subscriptionId": "uuid",
+  "status": "ACTIVE",
+  "customerDetails": { ... } // from KYC API
+}
